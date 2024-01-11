@@ -1,0 +1,111 @@
+body {
+    background-image: url(https://img.freepik.com/premium-photo/3d-render-design-school-building-with-copy-space_274845-370.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-nav {
+    display: flex;
+    font-weight: bolder;
+    padding: 0.5em;
+}
+
+.contact-nav:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
+.contact-nav>div>img {
+    margin-left: 2em;
+}
+
+#main-nav>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 0px 5px 10px blue;
+}
+
+a {
+text-decoration: none;
+font-weight: bolder;
+color: black;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.btn1 {
+    color: white;
+    background-color: #0D6DB7;
+    height: 1em;
+    width: 8em;
+    padding: 1%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.btn2 {
+    color: white;
+    background-color: #8DC63F;
+    height: 1em;
+    width: 8em;
+    padding: 1%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#content-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 2%; */
+}
+
+.contact-img,
+.div1 {
+    margin-top: 3%;
+}
+
+.div1 {
+    background-color: #90c0e5;
+    opacity: 0.8;
+    padding: 3%;
+    border-radius: 30px;
+}
+
+.div1:hover {
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.div1>h1>span {
+    color: darkgreen;
+}
+
+.div1>h2>span {
+    color: #000fb5;
+}
+
+.div1>button {
+    display: flex;
+    justify-content: center;
+    background-color: #90c0e5;
+    padding: 1em;
+    width: 35%;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.div1>button:hover {
+    cursor: pointer;
+    background-color: #8DC63F;
+    margin-left: 4%;
+}
+
+.div1>button>img {
+    margin-left: 1em;
+}
